@@ -1,0 +1,15 @@
+Mathieu Caron
+Antoine Amara
+
+pour compiler: make
+pour tester: make test
+
+Scheduler:
+Ce tp a pour but de créer un petit scheduler simple. Les fonctions implementer pour celui-ci sont dans
+le fichier scheduler.c
+
+Pour pouvoir simuler une horloge la bibliothèque hw est utilisé.
+
+Le scheduler est simple il gère ses contexte en boucle, c'est à dire que l'on a une liste chainée
+bouclé et que l'on passe a chaque fois au suivant de la liste jusqu'a retombé sur le permier
+et ainsi de suite.
